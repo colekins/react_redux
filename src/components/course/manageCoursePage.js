@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as courseActions from '../../actions/courseActions';
 
-class ManageCoursePage extends React.component {
+class ManageCoursePage extends React.Component {
   constructor(props, context) {
     super(props, context);
   }
@@ -15,13 +15,13 @@ class ManageCoursePage extends React.component {
   }
 }
 
-ManageCoursePage.propTypes = {
-  //
-};
+// ManageCoursePage.propTypes = {
+//
+// };
 
 function mapStateToProps(state, ownProps) {
   return {
-    state
+    state: state
   };
 }
 
